@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Veterinaria y peluquería canina</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a Veterinaria y peluquería canina</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#citas">Citas</a></li>
+          <li><a href="#atencion-al-cliente">Atención al cliente</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      
+      <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+          <li>Cuidado de mascotas</li>
+          <li>Servicios veterinarios</li>
+          <li>Servicios de peluquería canina</li>
+          <li>Otros servicios adicionales</li>
+        </ul>
+      </section>
+      <section id="citas">
+        <h2>Programar cita</h2>
+        <form>
+          <label for="servicio">Servicio:</label>
+          <select id="servicio" name="servicio">
+            <option value="cuidado-de-mascotas">Cuidado de mascotas</option>
+            <option value="servicios-veterinarios">Servicios veterinarios</option>
+            <option value="servicios-de-peluqueria-canina">Servicios de peluquería canina</option>
+            <option value="otros-servicios-adicionales">Otros servicios adicionales</option>
+          </select>
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha">
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora">
+          <input type="submit" value="Programar cita">
+        </form>
+        <h2>Citas programadas</h2>
+        <ul>
+          <li>Fecha y hora: [fecha y hora de la cita programada]</li>
+        </ul>
+        </section>
+        <section id="atencion-al-cliente">
+        <h2>Atención al cliente</h2>
+        <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <input type="submit" value="Enviar">
+        </form>
+        <h2>Contactos</h2>
+        <ul>
+        <li>Correo electrónico: [correo electrónico]</li>
+        <li>Teléfono: [número de teléfono]</li>
+        <li>Dirección: [dirección]</li>
+        </ul>
+        </section>
+        </main>
+        <footer>
+        <p>Derechos reservados Veterinaria y peluquería canina</p>
+        </footer>
+        
+          </body>
+        </html>
